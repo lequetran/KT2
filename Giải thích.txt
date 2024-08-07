@@ -50,3 +50,21 @@ arraySum(arr, 2) = arraySum(arr, 1) + arr[1] = 1 + 4 = 5
 arraySum(arr, 3) = arraySum(arr, 2) + arr[2] = 5 + 3 = 8
 arraySum(arr, 4) = arraySum(arr, 3) + arr[3] = 8 + 4 = 12
 arraySum(arr, 5) = arraySum(arr, 4) + arr[4] = 12 + 5 = 17
+
+Câu 2.3
+
+
+search(arr, 6, 3)
+
+Kiểm tra arr[5] (6), không phải x, gọi search(arr, 5, 3)
+search(arr, 5, 3)
+
+Kiểm tra arr[4] (5), không phải x, gọi search(arr, 4, 3)
+search(arr, 4, 3)
+
+Kiểm tra arr[3] (4), không phải x, gọi search(arr, 3, 3)
+search(arr, 3, 3)
+
+Kiểm tra arr[2] (3), tìm thấy x, trả về 2
+Kết quả
+Hàm search tìm thấy số 3 ở vị trí 2 trong mảng
