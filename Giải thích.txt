@@ -90,3 +90,33 @@ fibonacci(0)
 
 Điều kiện dừng, trả về 0
 Kết quả: fibonacci(2) = 1 + 0 = 1, fibonacci(3) = 1 + 1 = 2, fibonacci(4) = 2 + 1 = 3, fibonacci(5) = 3 + 2 = 5.
+
+câu 2.5
+
+ Giải thích từng bước
+
+1. Di chuyển 2 đĩa từ A đến B, sử dụng C làm cột phụ
+   - Di chuyển 1 đĩa từ A đến C, sử dụng B làm cột phụ
+   - Di chuyển đĩa 1 từ A đến C
+   -Di chuyển đĩa 2 từ A đến B
+   -Di chuyển 1 đĩa từ C đến B, sử dụng A làm cột phụ
+    - Di chuyển đĩa 1 từ C đến B
+
+2. Di chuyển đĩa 3 từ A đến C
+
+3. Di chuyển 2 đĩa từ B đến C, sử dụng A làm cột phụ
+   - Di chuyển 1 đĩa từ B đến A, sử dụng C làm cột phụ
+   - Di chuyển đĩa 1 từ B đến A
+   - Di chuyển đĩa 2 từ B đến C
+   - Di chuyển 1 đĩa từ A đến C, sử dụng B làm cột phụ
+   - Di chuyển đĩa 1 từ A đến C
+
+Tổng hợp các bước
+
+1. Di chuyển đĩa 1 từ A đến C
+2. Di chuyển đĩa 2 từ A đến B
+3. Di chuyển đĩa 1 từ C đến B
+4. Di chuyển đĩa 3 từ A đến C
+5. Di chuyển đĩa 1 từ B đến A
+6. Di chuyển đĩa 2 từ B đến C
+7. Di chuyển đĩa 1 từ A đến C
