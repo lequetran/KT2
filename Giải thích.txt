@@ -18,4 +18,35 @@ Tính 1 + sum(0)
 sum(0)
 
 Điều kiện dừng, trả về 0
-Kết quả: sum(1) = 1 + 0 = 1, sum(2) = 2 + 1 = 3, sum(3) = 3 + 3 = 6, sum(4) = 4 + 6 = 10, sum(5) = 5 + 10 = 15
+Kết quả: sum(1) = 1 + 0 = 1, sum(2) = 2 + 1 = 3, sum(3) = 3 + 3 = 6, sum(4) = 4 + 6 = 10, sum(5) = 5 + 10 = 15.
+
+Câu 2.2
+arraySum(arr, 5)
+
+Tính arraySum(arr, 4) + arr[4]
+arr[4] là 5
+arraySum(arr, 4)
+
+Tính arraySum(arr, 3) + arr[3]
+arr[3] là 4
+arraySum(arr, 3)
+
+Tính arraySum(arr, 2) + arr[2]
+arr[2] là 3
+arraySum(arr, 2)
+
+Tính arraySum(arr, 1) + arr[1]
+arr[1] là 4
+arraySum(arr, 1)
+
+Tính arraySum(arr, 0) + arr[0]
+arr[0] là 1
+arraySum(arr, 0)
+
+Điều kiện dừng, trả về 0
+Kết quả từng bước
+arraySum(arr, 1) = arraySum(arr, 0) + arr[0] = 0 + 1 = 1
+arraySum(arr, 2) = arraySum(arr, 1) + arr[1] = 1 + 4 = 5
+arraySum(arr, 3) = arraySum(arr, 2) + arr[2] = 5 + 3 = 8
+arraySum(arr, 4) = arraySum(arr, 3) + arr[3] = 8 + 4 = 12
+arraySum(arr, 5) = arraySum(arr, 4) + arr[4] = 12 + 5 = 17
